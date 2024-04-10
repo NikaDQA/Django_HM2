@@ -1,0 +1,6 @@
+{% block content %}
+{{even_or_odd}}
+{% if result_text %}
+    {% include 'page_name.html' with text = result_text %}
+{{endif}}
+{% endblock content %}
