@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {{result}}
+    <br>
+    {% if text %}
+        {{text}}
+    {% endif %}
+    <br>
+    <a href = {% url 'archives' number %} > Go to page {{number}}</a>
+{% endblock content %}

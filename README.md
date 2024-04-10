@@ -1,1 +1,1 @@
-# Django_HM2
+# Django
